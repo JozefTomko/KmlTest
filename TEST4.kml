@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>KmlFile</name>
+  
+  <Style id="My_Style">
+ <IconStyle> <Icon> <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href> </Icon></IconStyle>
+  
+  <BalloonStyle>
+      <!-- a background color for the balloon -->
+      <bgColor>ffffffbb</bgColor>
+      <!-- styling of the balloon text -->
+      <text><![CDATA[
+      <b><font color="#CC0000" size="+3">$[name]</font></b>
+      <br/><br/>
+      <font face="Courier">$[description]</font>
+
+      ]]></text>
+    </BalloonStyle>
+  
+  </Style> 
+  
+  <Placemark>
+    <name>IMG_8320.JPG</name>
+    <description>&lt;img src='http://www.modrehory.sk/jml/images/phocagallery/2017/2017_01_28/_1040161.jpg' width='600' height='450'/&gt;</description>
+    <styleUrl>#defaultStyle1</styleUrl>
+    <Style>
+        <IconStyle>
+            <Icon>
+                <href>kml-thumbs/thumb-2015_03_27_G11-IMG_8320.JPG</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+    <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>10.705401,104.773769,27</coordinates>
+    </Point>
+</Placemark>
+</Document>
+</kml>
