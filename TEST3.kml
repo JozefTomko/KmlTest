@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>KmlFile</name>
+  
+  <Style id="My_Style">
+ <IconStyle> <Icon> <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href> </Icon></IconStyle>
+  
+  <BalloonStyle>
+      <!-- a background color for the balloon -->
+      <bgColor>ffffffbb</bgColor>
+      <!-- styling of the balloon text -->
+      <text><![CDATA[
+      <b><font color="#CC0000" size="+3">$[name]</font></b>
+      <br/><br/>
+      <font face="Courier">$[description]</font>
+
+      ]]></text>
+    </BalloonStyle>
+  
+  </Style> 
+  
+  <Placemark>  
+    <name>Monaco</name>  
+    <Snippet>Photo 1</Snippet>  
+    <description><![CDATA[  
+ <img src='http://www.modrehory.sk/jml/images/phocagallery/2017/2017_01_28/_1040161.jpg' width='400' /><br/&gt;  
+ Photo taken from near the palace in Monaco<br/>  
+ ]]>  
+ </description>  
+    <Point>  
+     <coordinates>7.421630,43.731459</coordinates>  
+    </Point>  
+   </Placemark>  
+</Document>
+</kml>
