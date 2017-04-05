@@ -20,19 +20,17 @@
   
   </Style> 
   
-  <Placemark>
-      <name>Google West Campus 2</name>
-      <styleUrl>#west_campus_style</styleUrl>
-      <ExtendedData>
-        <Data name="video">
-          <value><![CDATA[<iframe width="480" height="360"
-            src="http://www.modrehory.sk/jml/images/phocagallery/2017/2017_01_28/_1040161.jpg" frameborder="0"
-            allowfullscreen></iframe><br><br>]]></value>
-        </Data>
-      </ExtendedData>
-      <Point>
-        <coordinates>-122.0926995893311,37.42419403634421,0</coordinates>
-      </Point>
-</Placemark>
+  <Placemark>  
+    <name>Monaco</name>  
+    <Snippet>Photo 1</Snippet>  
+    <description><![CDATA[  
+ <img src='http://www.modrehory.sk/jml/images/phocagallery/2017/2017_01_28/_1040161.jpg' width='400' /><br/&gt;  
+ Photo taken from near the palace in Monaco<br/>  
+ ]]>  
+ </description>  
+    <Point>  
+     <coordinates>7.421630,43.731459</coordinates>  
+    </Point>  
+   </Placemark>  
 </Document>
 </kml>
